@@ -1,0 +1,29 @@
+How to Create Class:-   To create the class, we use the keyword "class" and then we keep name to that class as "Main".
+                        
+                        Example:- public class Main {
+                                   int x = 25;
+                                     }
+                                     
+How to Create Object:-  In Java, an object is created from a class. We have already created the class named "Main", so now we can use this to create objects.
+
+                        To create an object of Main, specify the class name, followed by the object name, and use the keyword "new".   
+
+                        Example:- public class Main {
+                                    int x = 15;
+                      public static void main(String[] args) {
+                          Main myObj = new Main();
+                         System.out.println(myObj.x);
+                           }
+                           }
+                           
+How to Create Method:-    In Java, to create a method, we should declare a Method name within the class and that they are used to perform certain actions.
+
+                        Example:-   public class Main {
+                                         static void newMethod() {
+                                       System.out.println("Hello World!");
+                                         }
+                                         }
+                                         
+How to Create Signature:- The getInstance() method of the Signature class accepts a string parameter representing required signature algorithm and returns the respective Signature object.                                       
+                            
+                         Example:- Signature sign = Signature.getInstance("SHA256withDSA");   
